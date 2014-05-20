@@ -24,17 +24,9 @@ $base .= "/" unless $base =~ m|/$|;
 our $num_good = 0;
 our @links = ();
 
-#open file to write links to
-#open(OUT,"> links.txt") or die "Could not open file to write to";
-#select OUT;
-
 #Harvest!
 harvest($base);
 print("Good links: ", $num_good);
-
-#unset write file
-#select STDOUT;
-#close(OUT);
 
 #harvest rolls through each page and finds all the links therein
 sub harvest{
