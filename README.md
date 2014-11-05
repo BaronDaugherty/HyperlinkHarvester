@@ -1,7 +1,7 @@
 HyperlinkHarvester
 ==================
 
-A basic PERL webcrawler
+A basic PERL webcrawler.
 Crawls a website and finds all of the INTERNAL (same domain) links therein.
 
 This program is modified from code provided in the book "Beginning Perl," available at http://www.perl.org/books/beginning-perl/.
